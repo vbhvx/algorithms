@@ -1,0 +1,9 @@
+[project]
+name = "algorithms"
+version = "0.1.0"
+description = "Data Structures & Algorithmic Patterns"
+authors = [{name = "vbhvx", email = "222459697+vbhvx@users.noreply.github.com"}]
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
