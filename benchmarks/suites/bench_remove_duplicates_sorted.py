@@ -1,8 +1,8 @@
 """
-Empirical benchmark for Remove Duplicates Sorted Array
+Empirical benchmark for Remove Duplicates from Sorted List
 """
 import time
-from algorithms.practice.two_pointers.remove_duplicates_sorted import solve_remove_duplicates_sorted
+from algorithms.practice.linked_lists.remove_duplicates_sorted import solve_remove_duplicates_sorted
 
 def benchmark_remove_duplicates_sorted():
     start = time.perf_counter()
@@ -13,4 +13,4 @@ def benchmark_remove_duplicates_sorted():
 
 if __name__ == "__main__":
     t = benchmark_remove_duplicates_sorted()
-    print(f"Remove Duplicates Sorted Array 100 iterations took {t*1000:.3f}ms")
+    print(f"Remove Duplicates from Sorted List 100 iterations took {t*1000:.3f}ms")
