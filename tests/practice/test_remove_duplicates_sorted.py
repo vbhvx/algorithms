@@ -1,7 +1,7 @@
 """
-Unit tests for Remove Duplicates Sorted Array
+Unit tests for Remove Duplicates from Sorted List
 """
-from algorithms.practice.two_pointers.remove_duplicates_sorted import solve_remove_duplicates_sorted
+from algorithms.practice.linked_lists.remove_duplicates_sorted import solve_remove_duplicates_sorted
 
 def test_remove_duplicates_sorted_base():
     assert solve_remove_duplicates_sorted() is True
