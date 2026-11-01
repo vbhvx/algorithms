@@ -1,7 +1,7 @@
 """
-Unit tests for Interval List Intersections
+Unit tests for Interval List Intersections Two Pointers
 """
-from algorithms.practice.two_pointers.interval_intersections import solve_interval_intersections
+from algorithms.practice.intervals_scheduling.interval_intersections import solve_interval_intersections
 
 def test_interval_intersections_base():
     assert solve_interval_intersections() is True
