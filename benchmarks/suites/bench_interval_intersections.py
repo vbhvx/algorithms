@@ -1,8 +1,8 @@
 """
-Empirical benchmark for Interval List Intersections
+Empirical benchmark for Interval List Intersections Two Pointers
 """
 import time
-from algorithms.practice.two_pointers.interval_intersections import solve_interval_intersections
+from algorithms.practice.intervals_scheduling.interval_intersections import solve_interval_intersections
 
 def benchmark_interval_intersections():
     start = time.perf_counter()
@@ -13,4 +13,4 @@ def benchmark_interval_intersections():
 
 if __name__ == "__main__":
     t = benchmark_interval_intersections()
-    print(f"Interval List Intersections 100 iterations took {t*1000:.3f}ms")
+    print(f"Interval List Intersections Two Pointers 100 iterations took {t*1000:.3f}ms")
